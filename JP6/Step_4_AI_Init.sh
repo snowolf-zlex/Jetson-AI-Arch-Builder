@@ -24,7 +24,7 @@ set -e
 
 install_dependencies() {
     echo "===== 安装 Ninja 和编译工具 ====="
-    sudo apt update && apt-get install -y \
+    sudo apt update && sudo apt-get install -y \
         ninja-build \
         build-essential \
         libjpeg-dev \
